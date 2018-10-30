@@ -1,7 +1,7 @@
-require 'pry'
+
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
 
-x = MusicLibraryController.new.call
-binding.pry
+MusicLibraryController.new.call
+
